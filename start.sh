@@ -1,1 +1,1 @@
-python3 -m  src/tiktokbot.py
+python3 -m  src
