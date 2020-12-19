@@ -11,7 +11,7 @@ bot = Bot(BOT_TOKEN, parse_mode="HTML")
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage, loop=loop)
 
-users_db = redis.StrictRedis(host='localhost', port=6379, db=1)
+users_db = redis.StrictRedis(host='localhost', port=9000, db=1)
 
 ADMIN_LIST_COMMANDS = ['send_everyone', 'admin', 'backup_users_id', 'bot_stat', 'update_limitation']
 
